@@ -9,13 +9,12 @@ const client = new Client({
 })
 
 
-client.connect( ( err, db ) => {
+client.connect(err  => {
     if(err) {
         console.log(`❌ Error In Connectivity`)
         return
     }
     console.log(`✅ Connected Successfully`) 
-
 })
 
 
