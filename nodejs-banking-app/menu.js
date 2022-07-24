@@ -1,4 +1,6 @@
 
+// this code works creates nice CLI for your app
+
 const readline = require('readline')
 const { createNewAccount, deposit, withdraw, balance, transfer } = require('./db')
 const rl = readline.createInterface({
