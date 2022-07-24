@@ -3,10 +3,11 @@
 const { response } = require('express')
 const express = require('express')
 
+const cors = require('cors')
 const app = express()
+app.use(cors())
 
-
-const port = 3000
+const port = 3100
 
 const { createNewAccount, deposit, withdraw, balance, transfer } = require('./db')
 

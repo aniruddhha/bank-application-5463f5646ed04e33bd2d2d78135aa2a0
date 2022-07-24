@@ -1,0 +1,19 @@
+.custCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custCont > form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type]  {
+    width: 100%;
+    font-size: 2em;
+    margin-top: 8px;
+}
